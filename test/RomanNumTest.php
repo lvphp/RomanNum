@@ -32,8 +32,11 @@ class RomanNumTest extends PHPUnit_Framework_TestCase
             array('XIX', 19),
             array('XXXIV', 34),
             array('XXXIX', 39),
+            array('MDCCCCX', 1910),
+            array('MCMLIV', 1954),
+            array('MCMXC', 1990)
+            
         );
     }
 }
-?>
 
